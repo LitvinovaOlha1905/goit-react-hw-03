@@ -25,7 +25,7 @@ function App() {
   }
 
   const deleteUser = (contactId) => {
-	console.log(contactId);
+	// console.log(contactId);
 	setContacts(prevContacts => {
 		return prevContacts.filter(contact => contact.id !== contactId);
 	})
